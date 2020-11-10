@@ -1,0 +1,24 @@
+Prompt de comando 
+-----
+pip install django==2.2
+
+
+
+Na pasta do programa
+------
+django-admin startproject (NomeDaPasta) .
+
+python manage.py migrate -- migração das tabelas do banco
+
+python manage.py createsuperuser -- cria usuario administrador
+
+
+
+
+
+
+
+
+Rodar o servidor local
+-----
+python manage.py runserver
