@@ -6,11 +6,11 @@ pip install django==2.2
 
 Na pasta do programa
 ------
-django-admin startproject (NomeDaPasta) .
+django-admin startproject (NomeDaPasta) .   --- Não precisa executar
 
 python manage.py migrate -- migração das tabelas do banco
 
-python manage.py createsuperuser -- cria usuario administrador
+python manage.py createsuperuser -- cria usuario administrador  ---- Rodar essa função colocando seu nome e senha
 
 
 
